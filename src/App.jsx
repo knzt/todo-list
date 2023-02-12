@@ -62,7 +62,11 @@ function App() {
       <ToDoList>
         <Input className='input' onChange={addTask} placeholder='O que tenho para fazer:' ref={inputRef} ></Input>
 
-        <Button className='button' onClick={() => {saveTask(); setTask('')}}>adicionar</Button>
+        <Button className='button' onClick={() => {saveTask(); setTask('')}}>
+          <span className='regularButtonName'>adicionar</span>
+          <span className='smallButtonName'>add</span>
+        
+        </Button>
 
         <ul>
           {

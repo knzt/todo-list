@@ -5,6 +5,10 @@ font-family: 'Patrick Hand', cursive;
 color: #EBDAF4;
 text-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
 font-size: 38px
+
+@media (max-width: 600px) {
+    font-size: 25px
+}
 `
 
 export const Container = styled.div`
@@ -42,6 +46,14 @@ width: 60%;
 color: rgb(87, 71, 85);
 font-size: 17px;
 margin-right: 15px;
+
+@media (max-width: 1500px) {
+    width: 55%;
+}
+
+@media (max-width: 768px) {
+    width: 50%;
+}
 `
 
 export const Button = styled.button`
@@ -52,6 +64,18 @@ color: white;
 border: none;
 width: 37.3%;
 font-size: 17px;
+
+@media (max-width: 1780px) {
+    width: 36.7%;
+}
+
+@media (max-width: 768px) {
+    width: 30%;
+}
+
+@media (max-width: 480px) {
+    width: 20%;
+}
 `
 
 export const ListItem = styled.div` {
