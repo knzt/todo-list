@@ -1,0 +1,64 @@
+.button:hover {
+    background-color: #CBC9EC;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.input::placeholder {
+    color: #CBC9EC;
+    font-size: 17px;
+    padding: 3%;
+}
+
+.trash {
+    color: #e25555;
+    padding-right: 25px;
+}
+
+.trash:hover {
+    cursor: pointer;
+}
+
+.rocketIcon {
+    padding-left: 25px;
+}
+
+.rocketIcon:hover {
+    cursor: pointer;
+}
+
+.rocketIcon::title {
+    color: #CBC9EC;
+}
+
+input:focus {
+    outline: 0}
+
+.tooltip {
+    display: inline-block;
+}
+
+.finish-task-tip, .delete-task-tip {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: #fdfdfd38;
+    border-radius: 13%;
+}
+      
+.tooltip .finish-task-tip {
+    color: #9f80c4;
+    transform: translate(-50%, 20px);
+}
+
+.tooltip .delete-task-tip {
+    color: #e25555;
+    transform: translate(-80%, 20px);
+}
+      
+.tooltip:hover .finish-task-tip, .tooltip:hover .delete-task-tip {
+    display: inline-block;
+}
+
+
+
