@@ -58,7 +58,7 @@ function App() {
 
   return (
     <Container>
-      <Title>Lista de tarefas</Title>
+      {/* <Title>Lista de tarefas</Title> */}
       <ToDoList>
         <Input className='input' onChange={addTask} placeholder='O que tenho para fazer:' ref={inputRef} ></Input>
 

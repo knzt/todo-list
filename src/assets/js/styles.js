@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
-export const Title = styled.h1`
-font-family: 'Patrick Hand', cursive;
-color: #EBDAF4;
-text-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
-font-size: 38px
+// export const Title = styled.h1`
+// font-family: 'Patrick Hand', cursive;
+// color: #F7EEFB;
+// text-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+// font-size: 38px
 
-@media (max-width: 600px) {
-    font-size: 25px
-}
-`
+// @media (max-width: 600px) {
+//     font-size: 25px;
+//     color: CECFDC;
+// }
+// `
 
 export const Container = styled.div`
-background: linear-gradient(90deg, #81638b 0%, #503459 81.25%);
+background: linear-gradient(90deg, #383838 0%, #000000 81.25%);
 width: 100vw;
 height: 100vh;
 display: flex;
@@ -70,7 +71,7 @@ font-size: 17px;
 }
 
 @media (max-width: 768px) {
-    width: 30%;
+    width: 35%;
 }
 
 @media (max-width: 480px) {
