@@ -1,3 +1,40 @@
+body {
+    background: linear-gradient(to bottom, #fff, #f7d9aa);
+    animation: background 10s ease-in-out infinite alternate;
+  }
+
+  @keyframes background {
+    0% {
+      background-position: left top;
+    }
+    100% {
+      background-position: right bottom;
+    }
+  }
+
+  button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #f7d9aa;
+}
+
+li {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
+
 .button:hover {
     background-color: #CBC9EC;
     cursor: pointer;
@@ -45,7 +82,7 @@ input:focus {
     background-color: #fdfdfd38;
     border-radius: 13%;
 }
-      
+
 .tooltip .finish-task-tip {
     color: #9f80c4;
     transform: translate(-50%, 20px);
@@ -55,7 +92,7 @@ input:focus {
     color: #e25555;
     transform: translate(-80%, 20px);
 }
-      
+
 .tooltip:hover .finish-task-tip, .tooltip:hover .delete-task-tip {
     display: inline-block;
 }
