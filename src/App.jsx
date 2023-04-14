@@ -65,22 +65,22 @@ function App() {
         <Button className='button' onClick={() => {saveTask(); setTask('')}}>
           <span className='regularButtonName'>adicionar</span>
           <span className='smallButtonName'>add</span>
-        
+
         </Button>
 
         <ul>
           {
 
-            taskList.length > 0 ? 
+            taskList.length > 0 ?
             ( taskList.map(item => (
-            
+
             <ListItem isFinished={item.finished} key={item.id}>
-            
+
             <div className="tooltip">
               < FaRocket className='rocketIcon' onClick={() => finishTask(item.id)} style={{ cursor: item.finished ? 'default' : ''}}/>
                <span className="finish-task-tip" style={{ display: item.finished ? 'none' : ''}}>tarefa concluída</span>
            </div>
-           
+
             <li>{item.task}</li>
 
             <div className="tooltip">
